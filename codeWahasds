@@ -1,0 +1,9 @@
+
+var number = function(busStops){
+  var array = [busStops]
+  var sumPeople
+  for (i = 0; i < array.length; i++) {
+    sumPeople = (array[i][0]) - (array[i][1])
+   }
+   return sumPeople
+}
